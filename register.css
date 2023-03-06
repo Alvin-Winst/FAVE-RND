@@ -1,0 +1,245 @@
+body{
+    background-color: #00AA13;
+
+}
+#logo{
+    position: absolute;
+    top: 5%;
+    height: 8%;
+    left: 44.5%;
+    transition-duration: 200ms;
+}
+#register{
+    position: absolute;
+    width: 45%;
+    height: 165%;
+    left: 27.25%;
+    top: 20%;
+
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+#title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+    position: relative;
+    color: #00AA13;
+    text-align: center;
+}
+#separator{
+    width: 87.5%;
+    height: 0.3%;
+    position: relative;
+    top: -3%;
+    left: 5%;
+}
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    font-weight: 550;
+    color: #00AA13;
+    font-size: 130%;
+    left: 5%;
+}
+input{
+    position: relative;
+    background-color: #d9d9d9;
+    border-radius: 17px;
+    border-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    padding-left: 2.5%;
+    height: 5.25%;
+    width: 83.5%;
+    left: 5%;
+}
+#name-lbl{
+    top: -1%;
+}
+#name{
+    position: relative;
+    left: 5%;
+    width: 167.25%;
+    height: 5.25%;
+}
+#first-name, #last-name{
+    position: static;
+    left: 0%;
+    width: 23.25%;
+    height: 100%;
+    font-size: 110%;
+    padding-left: 1.5%;
+}
+#first-name{
+    margin-right: 0.5%;
+}
+#last-name{
+    margin-left: 0.5%;
+}
+#email-lbl{
+    top: 1%;
+}
+#email{
+    top: 2%;
+}
+#phone-lbl{
+    top: 4%;
+}
+#phone{
+    top: 5%;
+}
+#birth-lbl{
+    top: 7%;
+}
+#birth{
+    position: relative;
+    top: 8%;
+    width: 167.25%;
+    height: 5%;
+}
+#dob, #mob, #yob{
+    width: 5%;
+    height: 100%;
+    padding-left: 1.65%;
+    text-align: center;
+}
+#dob{
+    left: 3%;
+}
+#d-m{
+    position: relative;
+    width: 2%;
+    height: 6%;
+    left: 2.5%;
+    top: -5%;
+}
+#mob{
+    left: 2%;
+}
+#m-y{
+    position: relative;
+    width: 2%;
+    height: 6%;
+    left: 1.5%;
+    top: -5%;
+}
+#yob{
+    width: 6%;
+    left: 1%;
+}
+#address-lbl{
+    top: 9%;
+}
+#address{
+    position: relative;
+    top: 10%;
+    width: 167.25%;
+    left: 5%;
+    height: 12%;
+}
+#province, #city{
+    position: static;
+    left: 0%;
+    width: 23.25%;
+    height: 45%;
+    font-size: 110%;
+    padding-left: 1.5%;
+    margin-bottom: 1%;
+}
+#province{
+    margin-right: 0.5%;
+}
+#city{
+    margin-left: 0.5%;
+}
+#full-addr{
+    padding-left: 1.5%;
+    position: static;
+    margin-top: 1%;
+    left: 0%;
+    width: 49%;
+    height: 45%;
+}
+#pwd-lbl{
+    top: 12%;
+}
+#pwd{
+    top: 13%;
+}
+#register-btn{
+    position: relative;
+    top: 16%;
+    background: #00AA13;
+    border-radius: 16px;
+    color: white;
+    border-color: transparent;
+    width: 40%;
+    height: 5.25%;
+    font-size: 165%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+    left: 28%;
+}
+#login{
+    position: relative;
+    top: 18%;
+    left: 31.25%;
+    font-size: 125%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #00AA13;
+    text-decoration: none;
+}
+#login:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #00AA13;
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+}
+#login:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+#login:active:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: white;
+}
+#login:active{
+    color: #d9d9d9;
+}
+
+@media screen and (max-width: 1099px) {
+    #logo{
+        left: 43%;
+    }
+}
+@media screen and (max-width: 899px){
+    #logo{
+        left: 41.5%;
+    }
+}
+@media screen and (max-width: 749px) {
+    #logo{
+        left: 40.5%;
+    }
+}
+@media screen and (max-width: 649px) {
+    #logo{
+        left: 38%;
+    }
+}
+@media screen and (max-width: 499px) {
+    #logo{
+        left: 34%;
+    }
+}

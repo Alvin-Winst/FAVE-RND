@@ -1,0 +1,353 @@
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    left: 0%;
+    top: 0%;
+    background-color: #00AA13;
+}
+
+#logo{
+    position: absolute;
+    width: 125px;
+    left: 5%;
+    top: 25%;
+}
+
+#search{
+    position: absolute;
+    width: 50%;
+    height: 35%;
+    left: 22%;
+    top: 25%;
+    border-radius: 20px;
+    border-color: transparent;
+    transition-duration: 300ms;
+}
+
+#search-icon{
+    position: absolute;
+    background-color: transparent;
+    background-image: url(Image/Vector.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    left: 23%;
+    top: 29%;
+    border-color: transparent;
+    transition-duration: 300ms;
+}
+#search-icon:hover{
+    opacity: 0.5;
+}
+
+#cart{
+    position: absolute;
+    height: 40%;
+    left: 75.75%;
+    top: 27%;
+    bottom: 91.85%;
+    transition-duration: 300ms;
+}
+#cart:active{
+    opacity: 0.5;
+}
+
+#separator{
+    position: absolute;
+    height: 50%;
+    left: 80.5%;
+    top: 23%;
+}
+
+#register, #login{
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    border-radius: 18px;
+    border-width: 3px;
+    top: 26%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 105%;
+    line-height: 30px;
+    border-style: solid;
+}
+
+#register{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    left: 82.5%;
+}
+#register:hover{
+    border-color: transparent;
+    background-color: white;
+    color: #00AA13;
+    transition-duration: 300ms;
+}
+#register:not(:hover){
+    transition-duration: 300ms;
+}
+#register:active{
+    background-color: #d9d9d9;
+    color: white;
+    border-color: #d9d9d9;
+}
+
+#login{
+    border-color: transparent;
+    background-color: white;
+    color: #00AA13;
+    left: 91%;
+}
+#login:hover{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    transition-duration: 300ms;
+}
+#login:not(:hover){
+    transition-duration: 300ms;
+}
+#login:active{
+    background-color: #d9d9d9;
+    color: white;
+    border-color: #d9d9d9;
+}
+
+#login-div{
+    position: absolute;
+    background-color: rgb(168,168,168,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    /* display: none; */
+}
+#login-popup{
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    width: 28%;
+    height: 85%;
+    left: 38%;
+    top: 7.5%;
+    /* transition-duration: 100ms; */
+}
+#x-btn{
+    position: absolute;
+    height: 3.5%;
+    left: 89%;
+    top: 4%;
+}
+#login-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    position: absolute;
+    top: 9%;
+    left: 9%;
+    transition-duration: 300ms;
+}
+#usr-eml, #pwd{
+    position: absolute;
+    width: 75%;
+    height: 8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 5%;
+    border-color: transparent;
+    border-radius: 18px;
+    background-color: #d9d9d9;
+}
+#usr-eml{
+    left: 8%;
+    top: 25%;
+}
+#pwd{
+    left: 8%;
+    top: 40%;
+}
+#remember{
+    position: absolute;
+    left: 8%;
+    top: 53%;
+    width: 6%;
+    height: 6%;
+}
+#remember-lbl{
+    position: absolute;
+    left: 18%;
+    top: 55%;
+    font-family: Calibri;
+    font-size: 14px;
+}
+#login-btn{
+    position: absolute;
+    background-color: #00AA13;
+    width: 50%;
+    height: 8.75%;
+    color: white;
+    border-width: 4px;
+    border-color: transparent;
+    border-radius: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 10%;
+    top: 63%;
+    left: 23%;
+}
+#login-btn:hover{
+    color: #00AA13;
+    background-color: white;
+    border-style: solid;
+    border-color: #00AA13;
+    transition-duration: 300ms;
+}
+#login-btn:not(:hover){
+    transition-duration: 300ms;
+}
+#login-btn:active{
+    background-color: #d9d9d9;
+    border-color: transparent;
+    color: white;
+}
+
+#separator-login{
+    background-color: transparent;
+    position: absolute;
+    height: 0.5%;
+    width: 80.5%;
+    top: 76%;
+    left: 8%;
+}
+#regis-p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 77%;
+    left: 8%;
+    font-size: 16px;
+    width: 40%;
+}
+#regis-a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 82%;
+    left: 68%;
+    text-decoration: none;
+    color: #00AA13;
+    font-weight: 600;
+}
+#regis-a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #00AA13;
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+}
+#regis-a:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+#regis-a:active:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: white;
+}
+#regis-a:active{
+    color: #d9d9d9;
+}
+
+
+@media screen and (max-width: 1109px) {
+    #separator, #register{
+        visibility: hidden;
+    }
+    #login{
+        left: 89%;
+        width: 90px;
+        font-size: 105%;
+    }
+    #cart{
+        left: 82%;
+    }
+    #search{
+        left: 24%;
+        width: 53%;
+    }
+    #search-icon{
+        left: 25%;
+    }
+}
+@media screen and (max-width:859px) {
+    #cart{
+        visibility: hidden;
+    }
+    #login{
+        left: 83.5%;
+    }
+}
+@media screen and (max-width: 659px) {
+    #logo{
+        left: 1%;
+        width: 115px;
+    }
+    #regis-a{
+        left: 55%;
+        font-size: 15px;
+    }
+    #regis-p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #logo{
+        visibility: hidden;
+    }
+    #search{
+        left: 5%;
+        width: 65%;
+    }
+    #search-icon{
+        left: 7%;
+    }
+    #login{
+        left: 77%;
+    }
+    #login-btn{
+        width: auto;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 454px){
+    #login-title{
+        font-size: 30px;
+        transition-duration: 300ms;
+    }
+    #regis-a{
+        font-size: 13px;
+    }
+    #regis-p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 400px){
+    #login{
+        width: auto;
+    }
+}
