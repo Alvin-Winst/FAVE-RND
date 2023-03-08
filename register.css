@@ -67,7 +67,7 @@ input{
     left: 0%;
     width: 23.25%;
     height: 100%;
-    font-size: 110%;
+    font-size: 120%;
     padding-left: 1.5%;
 }
 #first-name{
@@ -110,7 +110,7 @@ input{
     position: relative;
     width: 2%;
     height: 6%;
-    left: 2.5%;
+    left: 2.61%;
     top: -5%;
 }
 #mob{
@@ -120,7 +120,7 @@ input{
     position: relative;
     width: 2%;
     height: 6%;
-    left: 1.5%;
+    left: 1.61%;
     top: -5%;
 }
 #yob{
@@ -142,7 +142,7 @@ input{
     left: 0%;
     width: 23.25%;
     height: 45%;
-    font-size: 110%;
+    font-size: 120%;
     padding-left: 1.5%;
     margin-bottom: 1%;
 }
@@ -188,6 +188,7 @@ input{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #00AA13;
     text-decoration: none;
+    text-align: center;
 }
 #login:after{
     content: '';
@@ -222,24 +223,48 @@ input{
     #logo{
         left: 43%;
     }
+    #login{
+        left: 27%;
+    }
 }
 @media screen and (max-width: 899px){
     #logo{
         left: 41.5%;
+    }
+    #login{
+        left: 21%;
+        font-size: 120%;
     }
 }
 @media screen and (max-width: 749px) {
     #logo{
         left: 40.5%;
     }
+    #login{
+        left: 18%;
+        font-size: 115%;
+    }
 }
 @media screen and (max-width: 649px) {
     #logo{
         left: 38%;
     }
+    #login{
+        left: 13%;
+    }
+    #register-btn{
+        font-size: 150%;
+    }
 }
 @media screen and (max-width: 499px) {
     #logo{
         left: 34%;
+    }
+    #login{
+        left: 8%;
+        font-size: 110%;
+    }
+    #register-btn{
+        font-size: 110%;
     }
 }
