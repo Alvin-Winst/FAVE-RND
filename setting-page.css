@@ -24,6 +24,7 @@ body{
     left: 0%;
     top: 0%;
     background-color: #00AA13;
+    /* display: none; */
 }
 
 #logo{
@@ -243,15 +244,21 @@ body{
     border-color: transparent;
     color: white;
 }
-/* Nabar */
+Nabar
 
 /* Landing Page */
 
 /* .kanan  */
-#username h1{
-    position: absolute;
+
+#username{
+    left: 385px;
+    top: 171px;
     width: 124px;
     height: 28px;
+}
+
+#username h1{
+    position: absolute;
     left: 385px;
     top: 171px;
     font-weight: 300;
@@ -259,12 +266,11 @@ body{
     line-height: 27px;
 }
 
+
 #username i{
-    color: red;
-    position: absolute;
-    right: 100%;
-    /* Icon ga muncul */
+    padding: 10px;
 }
+
 
 #box-kanan{
     position: absolute;
@@ -298,15 +304,145 @@ body{
     top: 310px;
 
     background: #ffffff;
+    border: #ffffff;
     border-radius: 20px;
 
-    font-family: 'Poppins';
-    font-style: normal;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
     cursor: pointer;
-    color: #000000;
+    color: #000000;   
+}
+
+/* Change Name and Password */
+#box-change{
+    position: absolute;
+    width: 742px;
+    height: 420px;
+    left: 728px;
+    top: 220px;
+    padding: 15px;
+
+    border: 1.5px solid #A8A8A8;
+    border-radius: 36px;
+}
+
+#box-change .change-name{
+    height: 30px;
+    left: 746px;
+    top: 239px;
     
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 30px; */
+    color: #00AA13;
+}
+
+.name-conten-atas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* max-width: 700px;     */
+    /* margin-top: 20px; */
+}
+
+#box-change .name-conten-atas .nama h1{
+    width: 57px;
+    height: 27px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #6B6A6A;
+}
+
+#box-change .name-conten-atas .username h1{
+    width: 93px;
+    height: 27px;
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #6B6A6A;
+}
+
+#box-change .name-conten-atas .change-atas button{
+    /* position: absolute; */
+    width: 140px;
+    height: 24px;
+    left: 1312px;
+    top: 271px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    background: #00AA13;
+    border: #00AA13;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#box-change .change-password{
+    height: 30px;
+    left: 746px;
+    top: 239px;
+    
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 30px; */
+    color: #00AA13;
+}
+
+#box-change .name-conten-bawah{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* max-width: 700px;     */
+    /* margin-top: 20px; */
+}
+
+#box-change .name-conten-bawah .password h1{
+    width: 57px;
+    height: 27px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #6B6A6A;
+}
+
+#box-change .name-conten-bawah .pass h1{
+    width: 93px;
+    height: 27px;
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #6B6A6A;
+}
+
+#box-change .name-conten-bawah .change-bawah button{
+    /* position: absolute; */
+    width: 140px;
+    height: 24px;
+    left: 1312px;
+    top: 271px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    background: #00AA13;
+    border: #00AA13;
+    border-radius: 20px;
+    cursor: pointer;
 }
